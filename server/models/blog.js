@@ -21,8 +21,7 @@ const blogSchema = new mongoose.Schema({
     },
 
     datePosted: {
-        type: String,
-        required: true,
+        type: Date,
         default: Date.now
     },
 
